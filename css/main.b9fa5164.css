@@ -1,0 +1,66 @@
+/* Reset all default margins, paddings, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure images and media don't overflow */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Reset anchor tags */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset button styles */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* Set a default font and remove default styling */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+}
+
+/* Remove default styling on form elements */
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+/* Make sure iframes and embeds are responsive */
+iframe,
+embed {
+    max-width: 100%;
+}
+
+.app {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 850;
+    font-style: normal;
+    background-color: black;
+}
+
